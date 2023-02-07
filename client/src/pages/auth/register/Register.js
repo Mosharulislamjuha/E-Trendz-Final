@@ -141,7 +141,7 @@ const Register = ({ history }) => {
                         </div>
                         <div className={styles.from_group}>
                             <button>
-                                {loading ? <ButtonLoader /> : "Register"}
+                                 Register
                             </button>
                         </div>
                     </form>

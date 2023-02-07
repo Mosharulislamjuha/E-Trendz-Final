@@ -5,6 +5,7 @@ import {
     FcCustomerSupport,
     FcRating,
 } from "react-icons/fc";
+import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import MetaData from "../../components/MetaData";
@@ -70,7 +71,7 @@ const About = () => {
                                         est, assumenda cupiditate id nam illo
                                         odio ipsum itaque maxime.
                                     </p>
-                                    <button>Contact Us</button>
+                                    <Link to={"/contact"}><button>Contact Us</button></Link>
                                 </div>
                             </div>
                         </div>

@@ -54,11 +54,11 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="container">
                     <div className="d-flex align-items-center">
-                        <img
+                       <Link to={"/"} > <img
                             style={{ height: "50px" }}
                             src="https://res.cloudinary.com/drbkqzsso/image/upload/v1675276391/logo2_v83juj.png"
                             alt=""
-                        />
+                        /></Link>
                     </div>
                     <div className="search">
                         <Route
@@ -80,7 +80,9 @@ const Navbar = () => {
                     </div>
                     <div className="nav_links">
                         <ul className="d-flex align-items-center">
-                            <li className="cart">
+                            
+                            {   user&&
+                                <li className="cart">
                                 <Link to="/cart">
                                     <AiOutlineShoppingCart
                                         className="icon"
@@ -88,7 +90,7 @@ const Navbar = () => {
                                     />
                                     <span>{cartItems?.length}</span>
                                 </Link>
-                            </li>
+                            </li>}
                             {loading ? (
                                 <>
                                     <Spinner
@@ -156,7 +158,7 @@ const Navbar = () => {
                                                         </>
                                                     )}
                                                     <Link
-                                                        to="/profile"
+                                                        to="/"
                                                         id="logout"
                                                         onClick={logoutHandler}
                                                     >

@@ -112,8 +112,8 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className={styles.from_group}>
-                                        <label htmlFor="email_field">
-                                            Email
+                                        <label htmlFor="description">
+                                            Description
                                         </label>
                                         <textarea
                                             placeholder="Enter your text ..."

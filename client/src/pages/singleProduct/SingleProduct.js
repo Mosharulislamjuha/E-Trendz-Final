@@ -285,7 +285,7 @@ const SingleProduct = ({ match }) => {
                                             >
                                                 Add To Cart
                                             </button>
-                                            <button>Buy Now</button>
+                                            
                                         </div>
                                         <div className={styles.review}>
                                             {/* review */}
