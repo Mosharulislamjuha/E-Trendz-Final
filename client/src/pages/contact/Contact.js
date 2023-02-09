@@ -11,24 +11,10 @@ const Contact = () => {
     const contacts = [
         {
             icon: <FcBusinessContact size={50} />,
-            text1: "Tel: 043484434",
-            text2: "Email: shopx@gmail.com",
+            text1: "Tel: 01725090719",
+            text2: "Email: etrendz.offcial2023@gmail.com",
         },
-        {
-            icon: <FcBusinessContact size={50} />,
-            text1: "Tel: 043484434",
-            text2: "Email: shopx@gmail.com",
-        },
-        {
-            icon: <FcBusinessContact size={50} />,
-            text1: "Tel: 043484434",
-            text2: "Email: shopx@gmail.com",
-        },
-        {
-            icon: <FcBusinessContact size={50} />,
-            text1: "Tel: 043484434",
-            text2: "Email: shopx@gmail.com",
-        },
+        
     ];
     return (
         <Fragment>

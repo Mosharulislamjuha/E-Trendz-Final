@@ -7,22 +7,22 @@ const Category = () => {
         {
             image: "https://res.cloudinary.com/mehedi08h/image/upload/v1648871045/shopx/21_odgu2m.jpg",
             title: "Mens's Fashion",
-            link: <Link to="/">Mens</Link>,
+            link: <Link to="/products">Mens</Link>,
         },
         {
             image: "https://res.cloudinary.com/mehedi08h/image/upload/v1648871046/shopx/20_vtlnkz.jpg",
             title: "Women's Fashion",
-            link: <Link to="/">Women</Link>,
+            link: <Link to="/products">Women</Link>,
         },
         {
             image: "https://res.cloudinary.com/mehedi08h/image/upload/v1648871045/shopx/18_y8o95o.jpg",
             title: "Kid's Fashion",
-            link: <Link to="/">Kids</Link>,
+            link: <Link to="/products">Kids</Link>,
         },
         {
             image: "https://res.cloudinary.com/mehedi08h/image/upload/v1648871045/shopx/13_upzdtm.jpg",
             title: "ACCESSORIES'S",
-            link: <Link to="/">Accessories</Link>,
+            link: <Link to="/products">Accessories</Link>,
         },
     ];
     return (

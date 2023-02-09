@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.copyright}>
-                <span>© 2022 Optimal. All Rights Reserved.</span>
+                <span>© 2023 M.J.F All Rights Reserved.</span>
             </div>
         </div>
     );

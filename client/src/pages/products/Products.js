@@ -19,7 +19,7 @@ const Range = createSliderWithTooltip(Slider.Range);
 
 const Products = ({ match }) => {
     const [currentPage, setCurrentPage] = useState(1);
-    const [price, setPrice] = useState([1, 1000]);
+    const [price, setPrice] = useState([200, 100000]);
     const [category, setCategory] = useState("");
     const [rating, setRating] = useState(0);
 
@@ -103,14 +103,14 @@ const Products = ({ match }) => {
                                         >
                                             <Range
                                                 marks={{
-                                                    1: `$1`,
-                                                    1000: `$1000`,
+                                                    200: `৳200`,
+                                                    10000: `৳10000`,
                                                 }}
-                                                min={1}
-                                                max={1000}
-                                                defaultValue={[1, 1000]}
+                                                min={200}
+                                                max={10000}
+                                                defaultValue={[200, 10000]}
                                                 tipFormatter={(value) =>
-                                                    `$${value}`
+                                                    `৳${value}`
                                                 }
                                                 tipProps={{
                                                     placement: "top",

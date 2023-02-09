@@ -208,7 +208,7 @@ const SingleProduct = ({ match }) => {
                                     <div className={styles.Product_info}>
                                         <h4>{product?.name}</h4>
                                         <div className="d-flex align-items-center mt-3">
-                                            <h4>$ {product?.price}</h4>
+                                            <h4>৳ {product?.price}</h4>
                                             <div className="ms-5">
                                                 <div className="rating-outer">
                                                     <div

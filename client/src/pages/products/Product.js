@@ -31,7 +31,7 @@ const Product = ({ product }) => {
                         <span className="ms-2">{product?.numOfReviews}</span>
                     </div>
                     <div>
-                        <span className="fw-bold">$ {product?.price}</span>
+                        <span className="fw-bold">৳ {product?.price}</span>
                     </div>
                 </div>
                 <div className={styles.link_container}>

@@ -13,7 +13,7 @@ const Sidebar = () => {
         <div className={styles.sidebar}>
             <img
                 style={{ height: "40px" }}
-                src="https://res.cloudinary.com/mehedi08h/image/upload/v1648446111/shopx/logo2_diozsh.png"
+                src="https://res.cloudinary.com/dk7bczzx6/image/upload/v1675967898/juha/lo_xtohrs.png"
                 alt=""
             />
             <div>
