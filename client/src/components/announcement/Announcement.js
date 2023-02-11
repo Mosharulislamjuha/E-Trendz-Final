@@ -4,7 +4,7 @@ import styles from "./Announcement.module.scss";
 const Announcement = () => {
     return (
         <div className={styles.announcement}>
-            <span>FREE SHIPPING AROUND THE COUNTRY !</span>
+            <span>FREE SHIPPING AROUND THE COUNTRY</span>
         </div>
     );
 };
